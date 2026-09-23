@@ -8,3 +8,13 @@ By setting the data points in this central region to zero, for example by maskin
 In physical terms, this central masking acts as a mathematical high-pass filter. Because the low frequencies that provide tissue contrast are eliminated, the resulting magnitude image loses its global contrast entirely. Instead, only the sharp edges and boundaries of the anatomical structures remain visible, resulting in an image that looks like a contour drawing. <br>
 <br>
 Please use the interactive plot below to dyamically adjust the size of the central mask. By changing these parameters, yo can observe firsthand how removing varying amounts of cantral k-space data directly impacts the resulting image contrast and structure.
+
+
+
+## Peripheral k-Space Masking (Low-Pass Filter)
+
+Conversely, what happens if we do the exact opposite? In this experiment, we apply a low-pass filter by keeping only the central region of k-space and masking out the periphery (setting the outer high-frequency data points to zero). <br>
+<br>
+Because the high frequencies represent sharp edges and fine details, removing them causes the resulting image to become significantly blurred. However, since the low frequencies in the center are preserved, the global tissue contrast remains intact. <br>
+<br>
+Use the slider below to gradually reduce the amount of k-space data kept in the center and observe the increasing blurriness in the spatial domain.
