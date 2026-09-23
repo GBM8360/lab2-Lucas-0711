@@ -60,6 +60,9 @@ project:
         - file: index.md
         - file: 01-getting-started.md
         - file: 02-interactive-figures.md
+        - file: Masking.md
+        - file: Downsampling.md
+        - file: Rotation.md
 
   toc:
     - file: index.md
@@ -74,6 +77,8 @@ project:
     # chapter of its own, so the reader gets the figure in context rather than a
     # second copy next to a page of source code.
     - file: notebooks/figure-demo.ipynb
+    - file: notebooks/Masking1.ipynb
+    - file: notebooks/Masking2.ipynb
       hidden: true
 
 site:
