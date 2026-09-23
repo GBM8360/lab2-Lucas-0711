@@ -9,7 +9,7 @@ In physical terms, this central masking acts as a mathematical high-pass filter.
 <br>
 Please use the interactive plot below to dyamically adjust the size of the central mask. By changing these parameters, yo can observe firsthand how removing varying amounts of cantral k-space data directly impacts the resulting image contrast and structure.
 
-
+:::{figure} #fig1
 
 ## Peripheral k-Space Masking (Low-Pass Filter)
 
@@ -19,4 +19,4 @@ Because the high frequencies represent sharp edges and fine details, removing th
 <br>
 Use the slider below to gradually reduce the amount of k-space data kept in the center and observe the increasing blurriness in the spatial domain.
 
-```{embed} Masking2.ipynb#masking2-plot
+:::{figure} #fig2
