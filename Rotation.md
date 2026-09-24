@@ -14,4 +14,4 @@ Use the interactive slider below to vary the rotation angle. You can observe how
 :name: head-rotation
 
 Dies ist die Bildunterschrift für das interaktive k-Raum-Zentrum.
-::
+:::
