@@ -14,7 +14,7 @@ Please use the interactive plot below to dyamically adjust the size of the centr
 :name: central-k-space-masking
 
 Dies ist die Bildunterschrift für das interaktive k-Raum-Zentrum.
-::
+:::
 
 ## Peripheral k-Space Masking (Low-Pass Filter)
 
@@ -28,4 +28,4 @@ Use the slider below to gradually reduce the amount of k-space data kept in the 
 :name: peripheral-k-space-masking
 
 Dies ist die Bildunterschrift für das interaktive k-Raum-Zentrum.
-::
+:::
