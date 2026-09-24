@@ -8,4 +8,7 @@ According to the Nyquist-Shannon sampling theorem, reducing the sampling frequen
 Use the interactive slider below to increase the downsampling factor. Watch how skipping k-space lines leads to a smaller effective matrix and observe the classic aliasing artifacts appearing in the magnitude image.
 
 :::{figure} #fig3 
+:name: k-space-downsampling
+
+Dies ist die Bildunterschrift für das interaktive k-Raum-Zentrum.
 ::
