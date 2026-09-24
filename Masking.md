@@ -11,7 +11,7 @@ Please use the interactive plot below to dyamically adjust the size of the centr
 
 
 :::{figure} #fig1 
-:name: masking-figure-label
+:name: central-k-space-masking
 
 Dies ist die Bildunterschrift für das interaktive k-Raum-Zentrum.
 ::
@@ -25,7 +25,7 @@ Because the high frequencies represent sharp edges and fine details, removing th
 Use the slider below to gradually reduce the amount of k-space data kept in the center and observe the increasing blurriness in the spatial domain.
 
 :::{figure} #fig2 
-:name: masking-figure-label
+:name: peripheral-k-space-masking
 
 Dies ist die Bildunterschrift für das interaktive k-Raum-Zentrum.
 ::
