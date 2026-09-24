@@ -11,4 +11,4 @@ Use the interactive slider below to increase the downsampling factor. Watch how 
 :name: k-space-downsampling
 
 Dies ist die Bildunterschrift für das interaktive k-Raum-Zentrum.
-::
+:::
