@@ -24,4 +24,8 @@ Because the high frequencies represent sharp edges and fine details, removing th
 <br>
 Use the slider below to gradually reduce the amount of k-space data kept in the center and observe the increasing blurriness in the spatial domain.
 
-:::{figure} #fig2 ::
+:::{figure} #fig2 
+:name: masking-figure-label
+
+Dies ist die Bildunterschrift für das interaktive k-Raum-Zentrum.
+::
