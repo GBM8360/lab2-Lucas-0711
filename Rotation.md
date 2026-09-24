@@ -9,3 +9,6 @@ Assuming a Cartesian acquisition scheme where k-space is filled line by line, we
 Because k-space data is acquired sequentially over time, the first part of k-space represents the stationary head, while the latter part represents the rotated position. This abrupt transition and mismatch in the frequency domain leads to prominent **ghosting artifacts** and signal smearing along the phase-encoding direction when the inverse Fourier transform is applied.
 
 Use the interactive slider below to vary the rotation angle. You can observe how increasing the severity of the head movement alters the composite k-space and distorts the final reconstructed image magnitude.
+
+:::{figure} #fig3 
+::
