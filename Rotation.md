@@ -10,5 +10,5 @@ Because k-space data is acquired sequentially over time, the first part of k-spa
 
 Use the interactive slider below to vary the rotation angle. You can observe how increasing the severity of the head movement alters the composite k-space and distorts the final reconstructed image magnitude.
 
-:::{figure} #fig3 
+:::{figure} #fig4 
 ::
