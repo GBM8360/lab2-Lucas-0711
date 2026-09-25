@@ -76,12 +76,12 @@ project:
     # `hidden: true` keeps it built and referenceable without publishing it as a
     # chapter of its own, so the reader gets the figure in context rather than a
     # second copy next to a page of source code.
+      hidden: true
     - file: notebooks/figure-demo.ipynb
     - file: notebooks/Masking1.ipynb
     - file: notebooks/Masking2.ipynb
     - file: notebooks/Downsampling.ipynb
     - file: notebooks/Rotation.ipynb
-      hidden: true
 
 site:
   template: book-theme
