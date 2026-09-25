@@ -17,8 +17,6 @@ I have set up three interactive experiments to visualize different k-space pheno
 2. **Downsampling and Zero-Filling:** We simulate accelerated data acquisitions by skipping phase-encoding lines, comparing the aliasing (wrap-around) artifacts of true downsampling to the truncation (blurring) effects of zero-filling.
 3. **Simulation of Patient Moving:** We replicate sudden head rotations and lateral translations mid-scan, exploring the severe ghosting artifacts they produce and the underlying phase inconsistencies that cause them.
 
-
-(artifact-table)=
 ## Summary of MRI Artifacts
 
 | Experiment | k-Space Manipulation | Image Space Effect (Artifact) |
