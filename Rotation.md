@@ -14,7 +14,7 @@ Use the interactive slider below to vary the rotation angle. You can observe how
 :::{figure} #fig4 
 :name: head-rotation
 
-Patient rotation their head.
+Patient rotating their head.
 :::
 
 ## Head Translation
@@ -30,7 +30,7 @@ When interacting with the slider below, you might notice that the composite k-sp
 Patient moving their head laterally.
 :::
 
-**Speculation: Retrospective Motion Correction**
+**Speculation: Retrospective Motion Correction** <br>
 Could we fix this artifact retrospectively after the scan? 
 If we knew the exact physical distance and timing of the patient's movement (for example, by tracking the head with an optical camera), we could theoretically apply an inverse phase ramp to the affected k-space lines before reconstruction. However, in a real clinical scenario, this is highly complex. If the motion is "through-plane" (the patient moves out of the 2D slice entirely), the necessary anatomical data is permanently lost, making mathematical phase correction impossible.
 
