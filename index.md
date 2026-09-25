@@ -28,4 +28,3 @@ I have set up three interactive experiments to visualize different k-space pheno
 | **Zero-Filling** | Missing lines, original size | Truncation (Resolution loss) |
 | **Motion** | Spliced phase inconsistencies| Ghosting and smearing |
 
-Table {numref}`artifact-table` provides a quick overview of the physical effects explored in this book.
