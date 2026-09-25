@@ -18,9 +18,10 @@ Patient rotating their head.
 :::
 
 ## Head Translation
-Instead of a rotation, patients often shift their head laterally during an acquisition. According to the Fourier shift theorem, a spatial translation by $\Delta x$ introduces a linear phase ramp in the frequency domain, mathematically described by the Fourier transform equation:
+Instead of a rotation, patients often shift their head laterally during an acquisition. According to the Fourier shift theorem, a spatial translation by $\Delta x$ introduces a linear phase ramp in the frequency domain, mathematically described by Equation {eq}`fourier-eq`:
 
 $$S(k_x, k_y) = \iint \rho(x, y) e^{-i 2\pi (k_x x + k_y y)} dx dy$$
+(fourier-eq)
 
 When interacting with the slider below, you might notice that the composite k-space plot does not visually change. This is physically accurate! A spatial translation only alters the complex *phase* of the k-space data, leaving its amplitude (magnitude) completely unchanged. The severe ghosting artifacts in the reconstructed image are caused entirely by the sudden phase mismatch where the stationary and shifted k-space lines are spliced together, an inconsistency that remains completely invisible in a standard magnitude plot.
 
