@@ -1,4 +1,4 @@
-# Welcome to interactive k-space Explorations
+# Welcome to Interactive k-Space Explorations
 
 **Course:** GBM8360E - Physical Principles of Advanced MRI <br>
 **Author:** Lucas Schulze
