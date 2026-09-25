@@ -3,7 +3,7 @@ version: 1
 project:
   # TODO: make this yours
   title: 'Interactive k-Space Explorations'
-  subtitle: An interactive book built with MyST
+  subtitle: An interactive book about MRI artifacts
   # TODO: add yourself. This is the same author schema a real MOOC contribution uses.
   authors:
     - name: Lucas Schulze
