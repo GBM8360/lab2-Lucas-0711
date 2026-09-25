@@ -1,4 +1,6 @@
-# 1. Masking the Centre of k-Space
+# 1. Masking of k-Space
+
+## Central k-Space Masking (High-Pass Filter)
 
 In MRI, the raw data acquired by the scanner is stored in the frequency domain, commonly known as k-space. The spatia distribution of this data follows a very specific rule. The centre of k-space contains the low-frequency information, which dictates the overall image contrast and the general shapes of the anatomical structures. Conversely,  the periphery of k-space holds  the high-frequency information, which is responsible for the sharp edges, fine contours and  intricate details of the final image. <br>
 <br>
