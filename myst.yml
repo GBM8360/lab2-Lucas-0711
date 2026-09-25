@@ -82,6 +82,8 @@ project:
       hidden: true
     - file: notebooks/Translation.ipynb
       hidden: true
+    - file: notebooks/Translation.ipynb
+      hidden: true
 
 
 site:
