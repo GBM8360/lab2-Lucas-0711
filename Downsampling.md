@@ -18,7 +18,7 @@ Downsampling of k-space.
 
 If we simply drop k-space lines entirely, we reduce the matrix size and trigger aliasing wrap-around. An alternative approach is **zero-filling**, where we maintain the original matrix size but replace the skipped acquisition lines with zeros. 
 
-:::{figure} #fig6 
+:::{figure} #fig6
 :name: k-space-zerofilling
 
 Retaining the original matrix dimensions by filling the gaps.
