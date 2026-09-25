@@ -16,3 +16,16 @@ I have set up three interactive experiments to visualize different k-space pheno
 1. **Central and Peripheral Masking:** We apply high-pass and low-pass filters by selectively masking k-space, demonstrating how low frequencies govern global tissue contrast while high frequencies define sharp structural edges.
 2. **Downsampling and Zero-Filling:** We simulate accelerated data acquisitions by skipping phase-encoding lines, comparing the aliasing (wrap-around) artifacts of true downsampling to the truncation (blurring) effects of zero-filling.
 3. **Simulation of Patient Moving:** We replicate sudden head rotations and lateral translations mid-scan, exploring the severe ghosting artifacts they produce and the underlying phase inconsistencies that cause them.
+
+
+(artifact-table)=
+## Summary of MRI Artifacts
+
+| Experiment | k-Space Manipulation | Image Space Effect (Artifact) |
+| :--- | :--- | :--- |
+| **Masking** | High/Low frequency removal | Contrast loss or blurring |
+| **Downsampling** | Reduced matrix size | Aliasing (Wrap-around) |
+| **Zero-Filling** | Missing lines, original size | Truncation (Resolution loss) |
+| **Motion** | Spliced phase inconsistencies| Ghosting and smearing |
+
+Table {numref}`artifact-table` provides a quick overview of the physical effects explored in this book.
