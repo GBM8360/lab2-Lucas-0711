@@ -82,7 +82,7 @@ project:
       hidden: true
     - file: notebooks/Translation.ipynb
       hidden: true
-    - file: notebooks/Translation.ipynb
+    - file: notebooks/Zerofillings.ipynb
       hidden: true
 
 
