@@ -73,9 +73,13 @@ project:
     # chapter of its own, so the reader gets the figure in context rather than a
     # second copy next to a page of source code.
     - file: notebooks/Masking1.ipynb
+      hidden: true
     - file: notebooks/Masking2.ipynb
+      hidden: true
     - file: notebooks/Downsampling.ipynb
+      hidden: true
     - file: notebooks/Rotation.ipynb
+      hidden: true
     - file: notebooks/Translation.ipynb
       hidden: true
 
