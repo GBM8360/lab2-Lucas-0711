@@ -58,16 +58,12 @@ project:
       # a duplicate of the figure. Add new chapters here as well as in `toc`.
       articles:
         - file: index.md
-        - file: 01-getting-started.md
-        - file: 02-interactive-figures.md
         - file: Masking.md
         - file: Downsampling.md
         - file: Rotation.md
 
   toc:
     - file: index.md
-    - file: 01-getting-started.md
-    - file: 02-interactive-figures.md
     - file: Masking.md
     - file: Downsampling.md
     - file: Rotation.md
@@ -77,11 +73,11 @@ project:
     # chapter of its own, so the reader gets the figure in context rather than a
     # second copy next to a page of source code.
       hidden: true
-    - file: notebooks/figure-demo.ipynb
     - file: notebooks/Masking1.ipynb
     - file: notebooks/Masking2.ipynb
     - file: notebooks/Downsampling.ipynb
     - file: notebooks/Rotation.ipynb
+    - file: notebooks/Translation.ipynb
 
 site:
   template: book-theme
