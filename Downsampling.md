@@ -1,5 +1,6 @@
-# 2. k-Space Downsampling and Aliasing
+# 2. Downsampling and Zero-Filling
 
+##Downsampling
 To accelerate data acquisition in magnetic resonance imaging, we often reduce the number of sampled k-space lines. This process is known as downsampling. In this experiment, we simulate downsampling by skipping every $n$-th row in k-space along one direction.
 
 **The Physical Effect (Aliasing):**
