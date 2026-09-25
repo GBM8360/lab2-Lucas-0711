@@ -3,10 +3,8 @@
 ## Head Rotation
 In clinical magnetic resonance imaging, patients rarely remain perfectly still throughout the entire scan. Any involuntary movement during data acquisition introduces inconsistencies into k-space, resulting in severe image artifacts.
 
-**The Experiment:**
 Assuming a Cartesian acquisition scheme where k-space is filled line by line, we simulate a sudden head rotation. Specifically, after the acquisition of the central lines plus a small offset (5 lines near the center), we imagine the patient suddenly rotates their head by a specific angle and then remains still. 
 
-**The Physical Effect (Motion Artifacts):**
 Because k-space data is acquired sequentially over time, the first part of k-space represents the stationary head, while the latter part represents the rotated position. This abrupt transition and mismatch in the frequency domain leads to prominent **ghosting artifacts** and signal smearing along the phase-encoding direction when the inverse Fourier transform is applied.
 
 Use the interactive slider below to vary the rotation angle. You can observe how increasing the severity of the head movement alters the composite k-space and distorts the final reconstructed image magnitude.
@@ -32,7 +30,7 @@ Patient moving their head laterally.
 
 As shown in {numref}`head-translation`, this phase inconsistency splits the spatial image into overlapping components.
 
-**Speculation: Retrospective Motion Correction** <br>
+**Retrospective Motion Correction** <br>
 Could we fix this artifact retrospectively after the scan? 
 If we knew the exact physical distance and timing of the patient's movement (for example, by tracking the head with an optical camera), we could theoretically apply an inverse phase ramp to the affected k-space lines before reconstruction. However, in a real clinical scenario, this is highly complex. If the motion is "through-plane" (the patient moves out of the 2D slice entirely), the necessary anatomical data is permanently lost, making mathematical phase correction impossible.
 
