@@ -9,13 +9,13 @@ By setting the data points in this central region to zero, for example by maskin
 <br>
 In physical terms, this central masking acts as a mathematical high-pass filter. Because the low frequencies that provide tissue contrast are eliminated, the resulting magnitude image loses its global contrast entirely. Instead, only the sharp edges and boundaries of the anatomical structures remain visible, resulting in an image that looks like a contour drawing. <br>
 <br>
-Please use the interactive plot below to dyamically adjust the size of the central mask. By changing these parameters, yo can observe firsthand how removing varying amounts of cantral k-space data directly impacts the resulting image contrast and structure.
+Please use the interactive plot below to dyamically adjust the size of the central mask. By changing these parameters, you can observe firsthand how removing varying amounts of central k-space data directly impacts the resulting image contrast and structure.
 
 
 :::{figure} #fig1 
 :name: central-k-space-masking
 
-Dies ist die Bildunterschrift für das interaktive k-Raum-Zentrum.
+Masking the k-space from the centre to the outside.
 :::
 
 ## Peripheral k-Space Masking (Low-Pass Filter)
@@ -29,5 +29,5 @@ Use the slider below to gradually reduce the amount of k-space data kept in the 
 :::{figure} #fig2 
 :name: peripheral-k-space-masking
 
-Dies ist die Bildunterschrift für das interaktive k-Raum-Zentrum.
+Masking the k-space from the outside to the centre .
 :::
