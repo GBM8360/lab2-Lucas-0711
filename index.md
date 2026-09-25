@@ -13,6 +13,6 @@ By using Plotly to create adjustable figures, we can tweak variables on the fly 
 
 I have set up three interactive experiments to visualize different k-space phenomena:
 
-1. **Masking:** What happens to our image contrast and structure when we remove the low-frequency data from the center of k-space? We'll use a slider to dynamically adjust the mask size and see the impact in real-time.
-2. **Downsampling:** To speed up an MRI scan, we might acquire fewer lines of data. In this section, we'll cut the k-space data in half along one direction to observe the classic aliasing (wrap-around) artifacts that result.
-3. **Rotation:** Patients rarely stay perfectly still. We will simulate a scenario where the patient suddenly rotates their head by 20 degrees right in the middle of the scan (specifically during the central lines) to see how motion corrupts the final image.
+1. **Central and Peripheral Masking:** We apply high-pass and low-pass filters by selectively masking k-space, demonstrating how low frequencies govern global tissue contrast while high frequencies define sharp structural edges.
+2. **Downsampling and Zero-Filling:** We simulate accelerated data acquisitions by skipping phase-encoding lines, comparing the aliasing (wrap-around) artifacts of true downsampling to the truncation (blurring) effects of zero-filling.
+3. **Simulation of Patient Moving:** We replicate sudden head rotations and lateral translations mid-scan, exploring the severe ghosting artifacts they produce and the underlying phase inconsistencies that cause them.
