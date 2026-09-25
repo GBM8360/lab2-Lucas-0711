@@ -1,4 +1,4 @@
-# 1. Masking of k-Space
+# 1. Central and Peripheral Masking
 
 ## Central k-Space Masking (High-Pass Filter)
 
